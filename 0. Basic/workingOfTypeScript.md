@@ -1,4 +1,4 @@
-# TypeScript Compilation Pipeline 🚀
+# TypeScript Compilation Pipeline 
 
 When you compile a TypeScript project, the compiler (`tsc`) doesn't directly convert `.ts` files into JavaScript. Instead, it passes the code through several internal stages.
 
