@@ -10,4 +10,4 @@ let channelName:string = 'My-Typescript';
 // here it will throw error : Type 'number' is not assignable to type 'string'
 
 let hight = 100;
-let tooHigh : boolean = hight > 50 ? true : false;
+let tooHigh : boolean = hight > 50 ? true : false
