@@ -69,4 +69,33 @@ type MasalaTea = {type: 'Masala', spiceLevel: number};
 type GingerTea = {type: 'Ginger', aroma: number};
 type LemonTea = {type: 'Lemon', amount: number};
 
-type S
+type Tea = {teaType: MasalaTea | GingerTea | LemonTea , quantity : number};
+
+function makeTea(order: Tea) {
+    switch (order.teaType.type) {
+        case "Masala":
+            return `Serving Masala Tea.`;
+            break;
+        case "Ginger":
+            return `Serving Ginger Tea.`;
+            break;
+        case "Lemon":
+            return `Serving Lemon Tea.`;
+            break;
+        default:
+            break;
+    }
+}
+
+function Brew(order: MasalaTea | GingerTea) {
+    if('spiceLevel' in order) {
+        return `Serving Masala Tea`;
+    }
+    if('aroma' in order) {
+        return `Serving Ginger Tea`;
+    }
+}
+
+// function isStringArray(arr: unknown) : arr is string[] {
+    
+// }
