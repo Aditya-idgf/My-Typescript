@@ -6,21 +6,6 @@ If you've previously used React with JavaScript, you'll notice that almost every
 
 ---
 
-# Running the Project
-
-Install all project dependencies.
-
-```bash
-npm install
-```
-
-Start the development server.
-
-```bash
-npm run dev
-```
-
----
 
 # Components and Props
 
